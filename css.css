@@ -1,0 +1,164 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	margin:0px;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+nav{
+	background-color:#000000;
+	color:#ffffff;
+	position:relative;
+	overflow:auto;
+	margin:0px;
+}
+
+nav div{
+	font-size:20px;
+	display:inline-block;
+	padding:20px;
+}
+
+nav ul{
+	list-style-type:none;
+	display:inline-block;
+}
+
+nav li{
+	display:inline-block;
+	margin-left:10px;
+	position:relative;
+	left:-30px;
+}
+
+#navbar{
+	display:inline-block;
+	color:#ffffff;
+}
+
+.content-box{
+	display:inline-block;
+	width:33%;
+	padding-left:20px;
+}
+
+.content{
+	padding:30px 180px;
+}
+
+.content p{
+	line-height:150%;
+	margin-top:5px;
+}
+
+.title{
+	padding-left:200px;
+	padding-right:200px;
+	background-color:#e6e6e6;
+	padding-bottom:30px;
+}
+.search{
+	float:right;
+	display:inline-block;
+	color:#009933;
+	border:2px solid #009933;
+	padding:10px;
+	border-radius:5px;
+	position:relative;
+	top:10px;
+	margin-right:20px;
+}
+
+.textbox{
+	float:right;
+	display:inline-block;	
+}
+
+.search:hover{
+	background-color:#29a329;
+	color:#ffffff;
+}
+
+h1{
+	font-size:70px;
+	margin: 0px;
+	padding-top:10px;
+	
+}
+
+button{
+	background-color:#005ce6;
+	color:#ffffff;
+	font-size:20px;
+	border-radius:5px;
+	padding:15px 20px;
+}
+
+button:hover{
+	background-color:#003d99;
+
+}
+
+button:active{
+	border:2px solid #005ce6;
+	background-color:#003d99;
+}
+
+footer{
+	margin-left:20px;
+}
+
+.details{
+	border:1px solid #a6a6a6;
+	border-radius:5px;
+	text-align:center;
+	float:left;
+	padding:5px;
+	color:#000000;
+	margin-bottom:20px;
+}
+
+.details:hover{
+	border:1px solid #000000;
+	background-color:#b3b3b3;
+}
+
+.navbar-item{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.link{
+	color:#cccccc;
+}
+
+.link:hover{
+	color:#e6e6e6;
+}
+
+.disabled{
+	color:#808080;
+}
+
+.disabled:hover{
+	cursor:not-allowed;
+}
+
+.drop{
+	color:#cccccc;
+}
+
+h3{
+	font-size:30px;
+	margin-bottom:1px;
+}
+
+
+
+.line{
+	border:1px solid #d9d9d9;
+	margin-left:20px;
+	margin-right:20px;
+}
